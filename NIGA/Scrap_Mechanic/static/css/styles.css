@@ -1,0 +1,12 @@
+body {
+  margin: 40px;
+  font-family: Georgia;
+  text-align: center;
+  align-items:center;
+  position: relative;
+  text-align: center;
+  left: 30%;
+  width:600px;
+  height: 790px;
+  box-shadow:2px 5px 10px;
+}
