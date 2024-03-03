@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% load static %}
-    <meta charset="UTF-8">
-    <title>MARON</title>
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-    <script src="{% static 'js/skript.js' %}"></script>
-</head>
-<body>
 
-<img src="{% static 'images/rock.png' %}">
-<a href="/">не камень?</a>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<img src="{% static 'images/rock.png' %}" width=600px>
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUO0YDQuNC60YDQvtC70Ls%3D">не камень</a>
+<a href="/">?</a>
+{% endblock %}
