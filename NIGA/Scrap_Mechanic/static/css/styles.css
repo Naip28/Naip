@@ -1,13 +1,21 @@
-body {
-  margin: 40px;
-  font-family: Georgia;
+@font-face {
+   font-family: 'kingslayImport';
+   src: url(../fonts/kingslay.ttf);
+}
+
+@font-face {
+   font-family: 'jiroImport';
+   src: url(../fonts/jiro.ttf);
+}
+.w{
   text-align: center;
   align-items:center;
-  position: relative;
-  text-align: center;
-  left: 30%;
-  width:600px;
-  height: 790px;
-  box-shadow:2px 5px 10px;
-  background: #FFEBCD;
+  width:100%;
+    height: 200px;
+    box-shadow:2px 5px 10px;
+  background: #4a4a4a;
+  color:#8a05f7;
+}
+h1 {
+    font-family: 'kingslayImport';
 }
