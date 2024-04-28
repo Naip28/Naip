@@ -2,7 +2,10 @@
    font-family: 'kingslayImport';
    src: url(../fonts/kingslay.ttf);
 }
-
+@font-face {
+   font-family: 'Concrete-Regular';
+   src: url(../fonts/Concrete-Regular.otf);
+}
 @font-face {
    font-family: 'jiroImport';
    src: url(../fonts/jiro.ttf);
@@ -15,6 +18,9 @@
     box-shadow:2px 5px 10px;
   background: #4a4a4a;
   color:#8a05f7;
+}
+p{
+    font-family: 'Concrete-Regular'
 }
 h1 {
     font-family: 'kingslayImport';
@@ -31,19 +37,24 @@ h1 {
     background-color: #FFE4C4;
     color: #8A2BE2;
 }
-.one{
-   background: #BC8F8F;
-   color: #F0E68C;
-   width:1180px;
-   height: 350px;
-   box-shadow:2px 5px 10px;
-   text-align: center;
-   align-items:center;
+.tovar_card {
+    background:  #4a4a4a;
+    color: #4dff97;
+    width: 31%;
+    height: 350px;
+    box-shadow: 2px 5px 10px;
+    text-align: center;
+    align-items: center;
+    margin: 1%;
 }
 .otf{
   text-align: center;
-  position: statik;
+  position: static;
   justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
 }
 body{
 background:#4a4a4a;
