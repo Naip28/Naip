@@ -5,18 +5,31 @@
     {% load static %}
     <meta charset="UTF-8">
     <title>MARON</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     <script src="{% static 'js/skript.js' %}"></script>
     <h1 style="font-size: 500%;">CYBERPAY</h1>
     <h1></h1>
-    <a href="/gg" style="color: white;
+    <a href="/gg" style="color: #90ffd8;
                   font-family: 'Concrete-Regular';
                   margin: 2%;
                   text-decoration: none;}">О НАС</a>
-     <a href="/" style="color: white;
+     <a href="/" style="color: #90ffd8;
                  font-family: 'Concrete-Regular';
                  margin: 2%;
                  text-decoration: none;}">ДОМОЙ</a>
+     <a href="/reg" style="color: #90ffd8;
+                 font-family: 'Concrete-Regular';
+                 margin: 2%;
+                 text-decoration: none;}">зарегистрироватся</a>
+     <a href="/vxod" style="color: #90ffd8;
+                 font-family: 'Concrete-Regular';
+                 margin: 2%;
+                 text-decoration: none;}">войти</a>
+     <a href="/gorin" style="color: #90ffd8;
+                 font-family: 'Concrete-Regular';
+                 margin: 2%;
+                 text-decoration: none;}">.</a>
     </div>
 </head>
 <body>
@@ -24,10 +37,18 @@
 {% endblock %}
 </body>
 <footer>
-    <p style="font-size: 150%;color:#ff944d ">наши медиа:</p>
-
-
-    <p style="font-size: 150%;color:#ff944d ">наши партнёры:</p>
+    <p style="font-size: 150%;color:#63fd01 ">наши медиа:</p>
+    <div class="media">
+        <i class="fa-brands fa-youtube"></i>
+        <a
+                  text-decoration: none
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">youtube</a>
+    </div>
+    <div class="media2">
+        <i class="fa-solid fa-phone"></i>
+        <p>8 (495) 224-22-22</p>
+    </div>
+    <p style="font-size: 150%;color:#63fd01 ">наши партнёры:</p>
     <p>БУЛЬКЕРЫ корп.</p>
     <p>ПИКУЛЯРИКИ тм</p>
 
